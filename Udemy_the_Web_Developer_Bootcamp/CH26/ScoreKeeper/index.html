@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <!-- <div> -->
+            <img src="https://images.pexels.com/photos/899317/pexels-photo-899317.jpeg" alt="Score Board Image">
+        <!-- </div> -->
+        <div class="title">
+            <p>Score Keeper</p>
+        </div>
+        <div class="content">
+            <h1 class="score"><span id="score1">0</span> to <span id="score2">0</span></h1>
+            <p class="description">Use the button below to keepscore.</p>
+            <p class="points">
+                Playing to 
+                <select name="maxScore" class="maxScore">
+                    <option value="5">5</option>
+                    <option value="5">6</option>
+                    <option value="7">7</option>
+                    <option value="5">8</option>
+                    <option value="9">9</option>
+                    <option value="11">10</option>
+                </select>
+            </p>
+        </div>
+        <div class="bottom">
+            <button class="button" id="player1">+1 Player One</button>
+            <button class="button" id="player2">+1 Player Tow</button>
+            <button class="button" id="reset">Reset</button>
+        </div>
+        
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
